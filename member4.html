@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thành viên 4</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-neutral-50 text-neutral-800">
+  <header class="sticky top-0 bg-white/80 backdrop-blur border-b border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-semibold">TDSV</a>
+      <nav>
+        <ul class="flex items-center gap-6 text-sm">
+          <li><a href="index.html" class="text-neutral-600 hover:text-neutral-900">Trang chủ</a></li>
+          <li><a href="member1.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 1</a></li>
+          <li><a href="member2.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 2</a></li>
+          <li><a href="member3.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 3</a></li>
+          <li><a href="member4.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 4</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-6xl mx-auto px-4 py-6">
+<section class="grid md:grid-cols-3 gap-8 items-start">
+  <div class="md:col-span-1">
+    <img src="images/ThaiBaQuangMinh.jpg" alt="Thành viên 4" class="w-full aspect-square object-cover rounded-2xl shadow">
+  </div>
+  <div class="md:col-span-2 space-y-4">
+    <h1 class="text-3xl font-bold">Thái Bá Quang Minh</h1>
+    <div class="grid sm:grid-cols-2 gap-4 text-neutral-700">
+      <p><span class="font-semibold">MSSV:</span> 23127426</p>
+      <p><span class="font-semibold">Vai trò:</span> Developer, Designer</p>
+      <p><span class="font-semibold">Quê quán:</span> Việt Nam</p>
+      <p><span class="font-semibold">Liên hệ:</span> example@email.com</p>
+    </div>
+    <p class="text-neutral-700">Giới thiệu ngắn gọn về bản thân, sở thích và mục tiêu học tập.</p>
+  </div>
+</section>
+</main>
+  <footer class="border-t border-neutral-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-neutral-600">© <span id="y"></span> TDSV Team | HCMUS</div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>

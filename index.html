@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nhóm TDSV - Trang chủ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-neutral-50 text-neutral-800">
+  <header class="sticky top-0 bg-white/80 backdrop-blur border-b border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-semibold">TDSV</a>
+      <nav>
+        <ul class="flex items-center gap-6 text-sm">
+          <li><a href="index.html" class="text-neutral-600 hover:text-neutral-900">Trang chủ</a></li>
+          <li><a href="member1.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 1</a></li>
+          <li><a href="member2.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 2</a></li>
+          <li><a href="member3.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 3</a></li>
+          <li><a href="member4.html" class="text-neutral-600 hover:text-neutral-900">Thành viên 4</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-6xl mx-auto px-4 py-6">
+<section class="overflow-hidden rounded-2xl shadow bg-white">
+  <img src="images/Banner.jpg" alt="Banner nhóm" class="w-full h-64 md:h-80 object-cover">
+</section>
+
+<section class="mt-8">
+  <h1 class="text-2xl md:text-3xl font-bold">Chào mừng đến với nhóm TDSV</h1>
+  <p class="text-neutral-600 mt-2">Trang giới thiệu nhóm và các thành viên.</p>
+</section>
+
+<section class="mt-10">
+  <h2 class="text-xl font-semibold">Giới thiệu nhóm</h2>
+  <p class="text-neutral-700 mt-2">Chúng tôi là nhóm sinh viên IT từ University of Science.</p>
+</section>
+
+<section class="mt-10">
+  <h2 class="text-xl font-semibold">Thành viên</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+    <div class="bg-white rounded-xl shadow p-5 flex flex-col items-center text-center">
+      <img src="images/NguyenTruongDuy.jpg" alt="Thành viên 1" class="w-28 h-28 rounded-full object-cover shadow">
+      <h3 class="mt-3 font-semibold">Thành viên 1</h3>
+      <p class="text-neutral-600">Nguyễn Trường Duy</p>
+      <a href="member1.html" class="mt-3 inline-flex items-center justify-center rounded-lg px-4 py-2 border border-neutral-200 hover:bg-neutral-50">Xem thêm</a>
+    </div>
+    <div class="bg-white rounded-xl shadow p-5 flex flex-col items-center text-center">
+      <img src="images/TaVanDuc.jpg" alt="Thành viên 2" class="w-28 h-28 rounded-full object-cover shadow">
+      <h3 class="mt-3 font-semibold">Thành viên 2</h3>
+      <p class="text-neutral-600">Tạ Văn Đức</p>
+      <a href="member2.html" class="mt-3 inline-flex items-center justify-center rounded-lg px-4 py-2 border border-neutral-200 hover:bg-neutral-50">Xem thêm</a>
+    </div>
+    <div class="bg-white rounded-xl shadow p-5 flex flex-col items-center text-center">
+      <img src="images/LyThanhLuan.jpg" alt="Thành viên 3" class="w-28 h-28 rounded-full object-cover shadow">
+      <h3 class="mt-3 font-semibold">Thành viên 3</h3>
+      <p class="text-neutral-600">Lý Thành Luân</p>
+      <a href="member3.html" class="mt-3 inline-flex items-center justify-center rounded-lg px-4 py-2 border border-neutral-200 hover:bg-neutral-50">Xem thêm</a>
+    </div>
+    <div class="bg-white rounded-xl shadow p-5 flex flex-col items-center text-center">
+      <img src="images/ThaiBaQuangMinh.jpg" alt="Thành viên 4" class="w-28 h-28 rounded-full object-cover shadow">
+      <h3 class="mt-3 font-semibold">Thành viên 4</h3>
+      <p class="text-neutral-600">Thái Bá Quang Minh</p>
+      <a href="member4.html" class="mt-3 inline-flex items-center justify-center rounded-lg px-4 py-2 border border-neutral-200 hover:bg-neutral-50">Xem thêm</a>
+    </div>
+  </div>
+</section>
+</main>
+  <footer class="border-t border-neutral-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-neutral-600">© <span id="y"></span> TDSV Team | HCMUS</div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
